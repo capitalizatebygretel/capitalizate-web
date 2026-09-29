@@ -1,0 +1,655 @@
+<!doctype html>
+<html lang="es-MX">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Capitalízate by Gretel García · Consultoría empresarial en Cancún</title>
+<meta name="description" content="Consultoría empresarial boutique en Cancún y Riviera Maya. Un lugar independiente para pensar decisiones empresariales importantes antes de comprometer los recursos de su empresa.">
+<link rel="canonical" href="https://capitalizatebygretel.com/">
+<meta name="robots" content="noindex"><!-- VERSIÓN DE REVISIÓN: quitar al publicar -->
+<meta property="og:type" content="website">
+<meta property="og:locale" content="es_MX">
+<meta property="og:title" content="Capitalízate by Gretel García · Consultoría empresarial">
+<meta property="og:description" content="Un espacio profesional para pensar decisiones empresariales importantes.">
+<meta property="og:url" content="https://capitalizatebygretel.com/">
+<meta property="og:image" content="https://capitalizatebygretel.com/assets/og-capitalizate.jpg?v=2">
+<link rel="icon" href="assets/favicon.png?v=2">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png?v=2">
+<meta name="theme-color" content="#0b2b2d">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500;1,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "Capitalízate by Gretel García",
+  "url": "https://capitalizatebygretel.com/",
+  "logo": "https://capitalizatebygretel.com/assets/logo-completo.png?v=2",
+  "description": "Firma boutique de consultoría empresarial en Cancún y Riviera Maya: un espacio independiente para pensar decisiones empresariales importantes antes de comprometer los recursos de la empresa. Especialidad en productividad y asignación de recursos.",
+  "slogan": "Estrategia · Procesos · Resultados",
+  "email": "consultoria@capitalizatebygretel.com",
+  "telephone": "+52 998 180 4486",
+  "areaServed": [{"@type": "City", "name": "Cancún"}, {"@type": "Place", "name": "Riviera Maya"}, {"@type": "State", "name": "Quintana Roo"}],
+  "address": {"@type": "PostalAddress", "addressLocality": "Cancún", "addressRegion": "Quintana Roo", "addressCountry": "MX"},
+  "founder": {"@type": "Person", "name": "Gretel García", "jobTitle": "Economista y Maestra en Administración de Empresas"},
+  "knowsAbout": ["Consultoría empresarial", "Productividad empresarial", "Toma de decisiones empresariales", "Asignación de recursos", "Costo de oportunidad", "Emprendimiento"]
+}
+</script>
+
+<style>
+:root{
+  /* Guía de identidad: verde profundo #0B2B2D · dorado/bronce #9B7338 · dorado cálido #B99558 · marfil #F8F5ED */
+  --paper:#f8f5ed; --white:#fffdf8; --ink:#0b2b2d; --muted:#55615f; --line:#e5dfd0;
+  --teal:#0b2b2d; --teal-deep:#0b2b2d; --teal-soft:#f0ebdf; --orange:#9b7338; --orange-ink:#7e5c2a; --gold-warm:#b99558;
+  --serif:'Cormorant Garamond',Georgia,'Times New Roman',serif;
+  --sans:'Inter',system-ui,-apple-system,'Segoe UI',sans-serif;
+  --wrap:1120px;
+}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html{scroll-behavior:smooth;scroll-padding-top:84px}
+body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.65 var(--sans);-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}
+a{color:var(--teal)}
+.wrap{max-width:var(--wrap);margin:0 auto;padding:0 20px}
+h1,h2,h3{font-family:var(--serif);font-weight:600;letter-spacing:0;line-height:1.1;margin:0}
+h1{font-size:clamp(2.6rem,5.8vw,4.4rem)}
+h2{font-size:clamp(2.1rem,4vw,3.1rem)}
+h3{font-size:1.45rem}
+p{margin:0 0 1em}
+.eyebrow{font-size:.76rem;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--orange-ink);margin:0 0 18px;display:flex;align-items:center;gap:10px}
+.eyebrow::before{content:"";width:28px;height:2px;background:var(--orange)}
+.lead{font-size:1.15rem;color:var(--muted);max-width:640px}
+section{padding:104px 0}
+.btn{display:inline-flex;align-items:center;gap:10px;font:600 1rem var(--sans);text-decoration:none;border-radius:999px;padding:15px 26px;transition:background .15s,color .15s,transform .15s;cursor:pointer;border:0}
+.btn-primary{background:var(--teal);color:#fff}
+.btn-primary:hover{background:#06191a}
+.btn-ghost{color:var(--teal);border:1.5px solid color-mix(in srgb,var(--teal) 30%,transparent);background:transparent}
+.btn-ghost:hover{border-color:var(--teal)}
+.btn:active{transform:translateY(1px)}
+.btn svg{width:20px;height:20px}
+:focus-visible{outline:3px solid var(--orange);outline-offset:3px}
+
+/* Aviso de revisión */
+.review{background:var(--teal-deep);color:#fff;font-size:.85rem;text-align:center;padding:8px 16px}
+.review b{color:var(--gold-warm)}
+
+/* Header */
+header{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--paper) 92%,transparent);backdrop-filter:blur(10px);border-bottom:1px solid transparent;transition:border-color .2s}
+header.scrolled{border-bottom-color:var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:76px}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:var(--ink)}
+.brand .logo{height:50px;width:auto}
+.brand .logo-foot{height:56px}
+.brand-name{font-family:var(--serif);font-size:1.35rem;font-weight:600;line-height:1}
+.brand-name small{display:block;font-family:var(--sans);font-size:.68rem;font-weight:500;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin-top:4px}
+.menu{display:flex;align-items:center;gap:30px;list-style:none;margin:0;padding:0}
+.menu a{text-decoration:none;color:var(--ink);font-size:.95rem;font-weight:500}
+.menu a:hover{color:var(--teal)}
+.menu .btn{padding:11px 20px;color:#fff}
+.burger{display:none;background:none;border:0;padding:8px;cursor:pointer;color:var(--ink)}
+.burger svg{width:26px;height:26px}
+
+/* Hero */
+.hero{padding:96px 0 88px;position:relative;overflow:hidden}
+.hero-grid{display:grid;grid-template-columns:1.25fr .75fr;gap:56px;align-items:center}
+.hero h1{margin-bottom:26px;text-wrap:balance}
+.hero h1 em{font-style:italic;color:var(--orange)}
+.hero .lead{margin-bottom:36px}
+.actions{display:flex;flex-wrap:wrap;gap:14px}
+.pillars{display:flex;justify-content:center;gap:18px;flex-wrap:wrap;margin-top:28px;font-size:.78rem;font-weight:600;letter-spacing:.2em;color:var(--muted)}
+.pillars span:not(:last-child)::after{content:"·";margin-left:18px;color:var(--orange)}
+
+/* Idea económica */
+.quote{background:var(--teal-deep);color:#fff;padding:88px 0}
+.quote blockquote{margin:0 auto;max-width:860px;text-align:center;font-family:var(--serif);font-size:clamp(1.6rem,3.4vw,2.4rem);line-height:1.3;font-weight:400}
+.quote blockquote strong{font-weight:600;color:var(--gold-warm)}
+.quote p{text-align:center;color:#c9c4b5;margin:22px 0 0;font-size:.95rem}
+.resources{display:flex;flex-wrap:wrap;justify-content:center;gap:10px;margin-top:34px;list-style:none;padding:0}
+.resources li{border:1px solid rgba(185,149,88,.45);border-radius:999px;padding:7px 16px;font-size:.9rem;color:#efe9da}
+
+/* Servicios */
+.section-head{max-width:720px;margin-bottom:56px}
+.section-head h2{margin-bottom:18px}
+.cards{display:grid;grid-template-columns:repeat(2,1fr);gap:22px}
+.card{background:var(--white);border:1px solid var(--line);border-radius:20px;padding:34px 30px;position:relative}
+.card .num{font-family:var(--serif);font-size:1.1rem;color:var(--orange-ink);margin-bottom:14px;display:block}
+.card h3{margin-bottom:12px}
+.card p{color:var(--muted);margin:0}
+.for-whom{margin-top:56px;display:grid;grid-template-columns:.8fr 1.2fr;gap:40px;align-items:start;padding-top:48px;border-top:1px solid var(--line)}
+.for-whom h3{font-size:1.6rem}
+.checks{list-style:none;padding:0;margin:0;display:grid;gap:12px}
+.checks li{display:flex;gap:12px;align-items:flex-start}
+.checks li::before{content:"";flex:none;width:9px;height:9px;margin-top:10px;border-radius:50%;background:var(--orange)}
+
+/* Preguntas del empresario */
+.questions{background:var(--white);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.q-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.q{border-left:2px solid var(--orange);padding:4px 0 4px 18px;font-family:var(--serif);font-size:1.3rem;line-height:1.3}
+.q-cta{margin-top:48px;display:flex;flex-wrap:wrap;align-items:center;gap:20px}
+.q-cta p{margin:0;color:var(--muted)}
+
+/* Cómo trabajamos */
+.principle{background:var(--teal-soft);border-radius:20px;padding:30px 32px;margin-bottom:56px;display:flex;gap:22px;align-items:flex-start}
+.principle strong{font-family:var(--serif);font-size:1.45rem;font-weight:500;color:var(--teal-deep);display:block;margin-bottom:6px}
+.principle p{margin:0;color:var(--muted)}
+.principle .icon{flex:none;width:46px;height:46px;border-radius:50%;background:var(--teal);color:var(--gold-warm);display:grid;place-items:center;font-family:var(--serif);font-size:1.5rem;font-weight:600}
+.steps{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(4,1fr);gap:22px;counter-reset:s}
+.steps li{counter-increment:s;padding-top:22px;border-top:2px solid var(--line);position:relative}
+.steps li::before{content:counter(s,decimal-leading-zero);position:absolute;top:-2px;left:0;width:44px;border-top:2px solid var(--orange);padding-top:14px;font-family:var(--serif);color:var(--orange-ink);font-size:.95rem}
+.steps h3{margin:28px 0 10px;font-size:1.2rem}
+.steps p{color:var(--muted);margin:0;font-size:.97rem}
+
+/* Sobre Gretel */
+.about-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:64px;align-items:center}
+.portrait{aspect-ratio:4/5;border-radius:24px;background:var(--teal-deep);display:grid;place-items:center;position:relative;overflow:hidden}
+.portrait img{width:62%}
+.creds{list-style:none;padding:0;margin:26px 0 0;display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+.creds li{background:var(--white);border:1px solid var(--line);border-radius:14px;padding:16px 18px;font-size:.95rem}
+.creds b{display:block;font-family:var(--serif);font-weight:500;font-size:1.05rem;color:var(--teal-deep)}
+.formula{margin-top:26px;font-family:var(--serif);font-size:1.15rem;color:var(--teal-deep)}
+.formula span{color:var(--orange-ink)}
+
+/* FAQ */
+.faq{max-width:820px}
+details{border-bottom:1px solid var(--line);padding:6px 0}
+summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;gap:20px;align-items:center;padding:18px 0;font-family:var(--serif);font-size:1.4rem;font-weight:600}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";font-family:var(--sans);font-size:1.5rem;color:var(--orange);transition:transform .2s;flex:none}
+details[open] summary::after{transform:rotate(45deg)}
+details p{color:var(--muted);margin:0 0 18px;max-width:700px}
+
+/* Contacto */
+.contact{background:var(--teal-deep);color:#fff}
+.contact .eyebrow{color:var(--gold-warm)}
+.contact .lead{color:#d9d4c6}
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:start}
+.contact h2{margin-bottom:18px}
+.channels{list-style:none;padding:0;margin:32px 0 0;display:grid;gap:14px}
+.channels a{color:#fff;text-decoration:none;display:flex;gap:14px;align-items:center}
+.channels a:hover{text-decoration:underline}
+.channels .ic{width:42px;height:42px;border-radius:50%;background:rgba(255,255,255,.1);display:grid;place-items:center;flex:none}
+.channels svg{width:20px;height:20px}
+.channels small{display:block;color:#b8b19f;font-size:.8rem}
+.channels a > span:last-child{min-width:0;overflow-wrap:anywhere}
+form{background:#fff;color:var(--ink);border-radius:22px;padding:32px 28px}
+form h3{margin-bottom:6px}
+form > p{color:var(--muted);font-size:.95rem}
+.f{margin-bottom:16px}
+.f label{display:block;font-weight:500;font-size:.92rem;margin-bottom:6px}
+.f input,.f textarea{width:100%;font:inherit;color:var(--ink);background:var(--paper);border:1.5px solid var(--line);border-radius:12px;padding:12px 14px}
+.f textarea{min-height:110px;resize:vertical}
+.f input:focus,.f textarea:focus{outline:none;border-color:var(--teal)}
+.consent{display:flex;gap:10px;align-items:flex-start;font-size:.88rem;color:var(--muted);margin:6px 0 20px}
+.consent input{margin-top:4px;accent-color:var(--teal)}
+form .btn{width:100%;justify-content:center}
+.form-note{font-size:.82rem;color:var(--muted);margin:12px 0 0;text-align:center}
+
+/* Footer */
+footer{background:#071e20;color:#a9b1aa;padding:48px 0 32px;font-size:.9rem}
+.foot{display:flex;flex-wrap:wrap;justify-content:space-between;gap:24px;align-items:center}
+footer a{color:#e7e1d2;text-decoration:none}
+footer a:hover{text-decoration:underline}
+.foot-links{display:flex;flex-wrap:wrap;gap:22px;list-style:none;margin:0;padding:0}
+.legal{margin-top:28px;padding-top:22px;border-top:1px solid rgba(255,255,255,.08);display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;font-size:.82rem}
+
+/* WhatsApp flotante */
+.wa-float{position:fixed;right:18px;bottom:18px;z-index:30;width:58px;height:58px;border-radius:50%;background:#1f9d57;color:#fff;display:grid;place-items:center;box-shadow:0 10px 26px rgba(0,0,0,.22)}
+.wa-float svg{width:30px;height:30px}
+
+/* Secciones v2 */
+.hero-photo{margin:0;position:relative}
+.hero-photo img{width:100%;height:auto;aspect-ratio:9/11;object-fit:cover;border-radius:28px 28px 28px 120px}
+.hero-photo .pillars{margin-top:18px}
+.note-spec{margin:34px 0 0;padding:20px 24px;border-left:3px solid var(--orange);background:var(--white);border-radius:0 14px 14px 0;color:var(--muted);max-width:820px}
+.note-spec strong{color:var(--ink)}
+.valuemap{background:var(--teal-soft)}
+.vm-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:56px;align-items:center}
+.vm-grid h2{margin-bottom:18px}
+.vm-close{margin-top:22px;font-family:var(--serif);font-size:1.15rem;color:var(--teal-deep)}
+.vm-list{list-style:none;padding:0;margin:0;display:grid;gap:12px;counter-reset:v}
+.vm-list li{counter-increment:v;background:var(--white);border-radius:14px;padding:16px 18px 16px 58px;position:relative;border:1px solid color-mix(in srgb,var(--teal) 15%,transparent)}
+.vm-list li::before{content:counter(v);position:absolute;left:18px;top:50%;transform:translateY(-50%);width:26px;height:26px;border-radius:50%;background:var(--teal);color:#fff;font:600 .8rem var(--sans);display:grid;place-items:center}
+.vm-list b{font-weight:600;color:var(--teal-deep)}
+.how-grid{display:grid;grid-template-columns:1.6fr 1fr;gap:40px;align-items:start}
+.how-grid .steps{grid-template-columns:repeat(2,1fr);row-gap:34px}
+.how-photo{margin:0}
+.how-photo img{width:100%;height:auto;aspect-ratio:8/9;object-fit:cover;border-radius:22px}
+.modality{margin:40px 0 0;text-align:center;font-size:.9rem;font-weight:500;letter-spacing:.04em;color:var(--teal)}
+.forwhom{background:var(--white);border-top:1px solid var(--line)}
+.fw-grid{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center}
+.fw-photo{margin:0}
+.fw-photo img{width:100%;height:auto;aspect-ratio:9/7;object-fit:cover;border-radius:24px}
+.btn-light{background:#fff;color:var(--teal-deep);margin-top:26px}
+.btn-light:hover{background:#efe9da}
+.chan{display:flex;gap:14px;align-items:center;color:#fff}
+.f-row{display:grid;grid-template-columns:1.3fr 1fr;gap:12px}
+.f select{width:100%;font:inherit;color:var(--ink);background:var(--paper);border:1.5px solid var(--line);border-radius:12px;padding:12px 14px}
+.opt-l{font-weight:400;color:var(--muted)}
+@media (max-width:920px){
+  .vm-grid,.how-grid,.fw-grid{grid-template-columns:1fr}
+  .hero-photo{max-width:520px}
+  .hero-photo img{aspect-ratio:4/3;border-radius:24px 24px 24px 80px}
+}
+@media (max-width:760px){
+  .how-grid .steps{grid-template-columns:1fr}
+  .f-row{grid-template-columns:1fr;gap:0}
+  .pillars{gap:10px;letter-spacing:.12em}
+  .pillars span:not(:last-child)::after{margin-left:10px}
+}
+
+/* Responsive */
+@media (max-width:920px){
+  .hero-grid,.about-grid,.contact-grid,.for-whom{grid-template-columns:1fr}
+  .steps{grid-template-columns:repeat(2,1fr)}
+  .q-grid{grid-template-columns:1fr 1fr}
+  .portrait{max-width:360px;aspect-ratio:1}
+}
+@media (max-width:760px){
+  section{padding:72px 0}
+  .hero{padding:56px 0 64px}
+  .burger{display:block}
+  .menu{position:fixed;inset:76px 0 auto 0;background:var(--paper);flex-direction:column;align-items:stretch;gap:0;padding:8px 20px 24px;border-bottom:1px solid var(--line);display:none}
+  .menu.open{display:flex}
+  .menu li a{display:block;padding:14px 0;border-bottom:1px solid var(--line)}
+  .menu li:last-child a{border:0;margin-top:14px;justify-content:center}
+  .cards,.q-grid,.steps,.creds{grid-template-columns:1fr}
+  .principle{flex-direction:column}
+  form{padding:26px 20px}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+
+<div class="review">Versión de revisión · <b>textos en borrador</b> para validar con Gretel García</div>
+
+<header id="top">
+  <nav class="wrap nav" aria-label="Principal">
+    <a class="brand" href="#top" aria-label="Capitalízate by Gretel García, inicio">
+      <img class="logo" src="assets/logo-encabezado.png?v=2" alt="Capitalízate by Gretel García" width="480" height="166">
+    </a>
+    <button class="burger" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+    <ul class="menu" id="menu">
+      <li><a href="#servicios">Servicios</a></li>
+      <li><a href="#como-trabajamos">Cómo trabajamos</a></li>
+      <li><a href="#gretel">Gretel García</a></li>
+      <li><a href="#preguntas">Preguntas</a></li>
+      <li><a class="btn btn-primary" data-agenda href="#contacto">Agendar primera sesión</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <!-- INICIO -->
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <p class="eyebrow">Consultoría empresarial · Cancún y Riviera Maya</p>
+        <h1>Un espacio profesional para pensar <em>decisiones empresariales</em> importantes.</h1>
+        <p class="lead">Un lugar independiente donde usted puede detenerse a pensar, con criterio profesional, antes de comprometer los recursos de su empresa.</p>
+        <div class="actions">
+          <a class="btn btn-primary" data-agenda href="#contacto"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg> Agendar primera sesión</a>
+          <a class="btn btn-ghost" data-wa href="#"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2c-1.5 0-3-.4-4.3-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.4.1-.2 0-.3 0-.4l-.8-1.9c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.7.5-.1 1.5-.6 1.8-1.2.2-.6.2-1.1.1-1.2l-.5-.3Z"/></svg> Escribir por WhatsApp</a>
+        </div>
+      </div>
+      <figure class="hero-photo">
+        <img src="https://images.unsplash.com/photo-1604881991405-b273c7a4386a?auto=format&fit=crop&w=900&h=1100&q=75" srcset="https://images.unsplash.com/photo-1604881991405-b273c7a4386a?auto=format&fit=crop&w=450&h=550&q=75 450w, https://images.unsplash.com/photo-1604881991405-b273c7a4386a?auto=format&fit=crop&w=900&h=1100&q=75 900w" sizes="(max-width: 920px) 100vw, 40vw" width="900" height="1100" alt="Dos personas conversan en una mesa con tazas de café" fetchpriority="high">
+        <figcaption class="pillars"><span>ESTRATEGIA</span><span>PROCESOS</span><span>RESULTADOS</span></figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- CRITERIO -->
+  <section class="quote">
+    <div class="wrap">
+      <blockquote>Usted no necesita simplemente más información. Necesita <strong>criterio para convertirla en una decisión.</strong></blockquote>
+      <p>Una segunda mirada, externa e independiente, sobre los recursos de su empresa</p>
+      <ul class="resources"><li>Capital</li><li>Personas</li><li>Activos</li><li>Clientes</li><li>Procesos</li><li>Tiempo</li></ul>
+    </div>
+  </section>
+
+  <!-- SERVICIOS -->
+  <section id="servicios">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Servicios</p>
+        <h2>Una segunda mirada antes de comprometer un recurso importante</h2>
+        <p class="lead">Capitalízate no pretende resolver todos los problemas de su empresa. Le ayuda a tomar decisiones puntuales con fundamento económico y a hacer que cada recurso produzca más valor.</p>
+      </div>
+      <div class="cards">
+        <article class="card">
+          <span class="num">01</span>
+          <h3>Productividad empresarial</h3>
+          <p>Medimos cuánto produce cada recurso —personas, tiempo, activos— y dónde se está perdiendo valor sin que se note.</p>
+        </article>
+        <article class="card">
+          <span class="num">02</span>
+          <h3>Segunda opinión en decisiones puntuales</h3>
+          <p>¿Compro la máquina o contrato a una persona? ¿Me expando? ¿Entro a otro mercado? Analizamos las alternativas y su costo de oportunidad antes de que usted decida.</p>
+        </article>
+        <article class="card">
+          <span class="num">03</span>
+          <h3>Asignación de recursos</h3>
+          <p>Revisamos dónde está poniendo su empresa el capital, el tiempo y las personas, y dónde deberían estar para producir mayor valor.</p>
+        </article>
+        <article class="card">
+          <span class="num">04</span>
+          <h3>Ideas y nuevos negocios</h3>
+          <p>Para quien está por emprender, o pensando dejar su empleo para poner un negocio: aclarar la idea, priorizar y decidir con información.</p>
+        </article>
+      </div>
+      <p class="note-spec"><strong>Capitalízate no sustituye a sus especialistas.</strong> Le ayuda a saber qué preguntarles e integra sus respuestas —contables, financieras, comerciales— en una sola decisión.</p>
+    </div>
+  </section>
+
+  <!-- MAPA DE VALOR -->
+  <section class="valuemap" aria-labelledby="vm-title">
+    <div class="wrap vm-grid">
+      <div>
+        <p class="eyebrow">Mapa de valor</p>
+        <h2 id="vm-title">Primero, lo que su empresa ya tiene</h2>
+        <p class="lead">Capitalízate nunca empieza preguntando qué le falta a su empresa. Empieza por lo que tiene, cómo lo utiliza y qué valor le está generando.</p>
+        <p class="vm-close">Nunca optimizamos una parte de la empresa a costa de otra: buscamos el mejor resultado completo.</p>
+      </div>
+      <ul class="vm-list">
+        <li>Dónde sus recursos <b>generan valor</b></li>
+        <li>Dónde se <b>pierde valor</b></li>
+        <li>Qué recursos están <b>subutilizados</b></li>
+        <li>En qué dedica <b>tiempo el propietario</b> que no le corresponde</li>
+        <li>Dónde existe <b>rentabilidad que no se está viendo</b></li>
+        <li>Qué decisión <b>aparentemente eficiente</b> está perjudicando otra parte del negocio</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- DECISIONES -->
+  <section class="questions" aria-labelledby="q-title">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">¿Está frente a alguna de estas decisiones?</p>
+        <h2 id="q-title">Decisiones que conviene pensar antes de tomar</h2>
+      </div>
+      <div class="q-grid">
+        <p class="q">¿Compro una máquina nueva o contrato a una persona más?</p>
+        <p class="q">Mi negocio está creciendo: ¿me conviene expandirme?</p>
+        <p class="q">¿Tengo el número de trabajadores que realmente necesito?</p>
+        <p class="q">¿Estoy dedicando mi tiempo a lo que me corresponde como dueño?</p>
+        <p class="q">¿Me conviene entrar a un nuevo mercado o lanzar una campaña?</p>
+        <p class="q">¿Dejo mi empleo para poner mi propio negocio?</p>
+      </div>
+      <div class="q-cta">
+        <a class="btn btn-primary" data-agenda href="#contacto">Agendar primera sesión</a>
+        <p>En la primera sesión definimos juntos el alcance y si Capitalízate es lo que su decisión necesita.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CÓMO TRABAJAMOS -->
+  <section id="como-trabajamos">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Cómo trabajamos</p>
+        <h2>Una mesa para pensar, no un manual</h2>
+        <p class="lead">Cada empresa es distinta. En lugar de metodologías pesadas, una conversación profesional y tranquila, con criterio económico y el tiempo necesario para pensar bien.</p>
+      </div>
+      <div class="principle">
+        <div class="icon" aria-hidden="true">Z</div>
+        <div>
+          <strong>En la mesa de Capitalízate, el primero que se sienta es la empresa.</strong>
+          <p>Trabajamos con el dueño, el director o el gerente, pero la pregunta de fondo siempre es la misma: si su empresa hablara, ¿qué le diría? Recomendamos lo que genera valor sostenible para la empresa en su conjunto.</p>
+        </div>
+      </div>
+      <div class="how-grid">
+        <ol class="steps">
+          <li><h3>Primera sesión</h3><p>Usted plantea la decisión que tiene enfrente. Definimos el alcance y la forma de trabajo.</p></li>
+          <li><h3>Lo que ya tiene</h3><p>Revisamos qué recursos tiene su empresa, cómo los utiliza y qué valor le generan.</p></li>
+          <li><h3>Alternativas</h3><p>Integramos la información de su equipo y del entorno económico, y comparamos opciones por su costo de oportunidad.</p></li>
+          <li><h3>Decisión</h3><p>Usted decide con claridad, sabiendo qué gana y qué deja de ganar con cada camino.</p></li>
+        </ol>
+        <figure class="how-photo"><img src="https://images.unsplash.com/photo-1605256585681-455837661b18?auto=format&fit=crop&w=800&h=900&q=75" srcset="https://images.unsplash.com/photo-1605256585681-455837661b18?auto=format&fit=crop&w=400&h=450&q=75 400w, https://images.unsplash.com/photo-1605256585681-455837661b18?auto=format&fit=crop&w=800&h=900&q=75 800w" sizes="(max-width: 920px) 100vw, 35vw" width="800" height="900" alt="Persona tomando notas en una libreta sobre un escritorio" loading="lazy"></figure>
+      </div>
+      <p class="modality">Presencial en Cancún o en línea · Primera sesión y paquetes de horas según el tamaño de la decisión</p>
+    </div>
+  </section>
+
+  <!-- PARA QUIÉN -->
+  <section class="forwhom" aria-labelledby="fw-title">
+    <div class="wrap fw-grid">
+      <figure class="fw-photo"><img src="https://images.unsplash.com/photo-1518644730709-0835105d9daa?auto=format&fit=crop&w=900&h=700&q=75" srcset="https://images.unsplash.com/photo-1518644730709-0835105d9daa?auto=format&fit=crop&w=450&h=350&q=75 450w, https://images.unsplash.com/photo-1518644730709-0835105d9daa?auto=format&fit=crop&w=900&h=700&q=75 900w" sizes="(max-width: 920px) 100vw, 45vw" width="900" height="700" alt="Empresario pensando frente a su computadora junto a una ventana" loading="lazy"></figure>
+      <div>
+        <p class="eyebrow">Para quién</p>
+        <h2 id="fw-title">La vida del empresario suele ser solitaria</h2>
+        <p class="lead" style="margin:18px 0 26px">Muchas decisiones se toman sin tiempo y sin alguien con quien pensarlas. Capitalízate es ese espacio.</p>
+        <ul class="checks">
+          <li>Dueños de pequeñas y medianas empresas establecidas en Cancún y la Riviera Maya.</li>
+          <li>Directores y gerentes de empresas más grandes que necesitan una mirada externa antes de proponer una decisión.</li>
+          <li>Personas que están pensando poner un negocio o dejar su empleo para emprender.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOBRE GRETEL -->
+  <section class="about" id="gretel">
+    <div class="wrap about-grid">
+      <div class="portrait" aria-hidden="true">
+        <img src="assets/marca-512.png?v=2" alt="" width="200" height="200">
+      </div><!-- PENDIENTE: foto institucional (sesión del jueves) -->
+      <div>
+        <p class="eyebrow">Quién está detrás</p>
+        <h2>Gretel García</h2>
+        <p class="lead" style="margin-top:18px">Economista y Maestra en Administración de Empresas. Ha trabajado directamente con dueños de empresas de muy distintos tamaños —de una reconocida marca de calzado a empresas turísticas, restaurantes y pymes locales— y ha formado a empresarios en maestrías y diplomados durante más de 20 años.</p>
+        <ul class="creds">
+          <li><b>Economista</b>Maestría en Administración de Empresas</li>
+          <li><b>+20 años</b>en docencia de maestría y formación ejecutiva</li>
+          <li><b>Productividad</b>su especialidad: medir y ordenar recursos</li>
+          <li><b>Estudios doctorales</b>en curso</li>
+        </ul>
+        <p class="formula">Conocimiento académico <span>+</span> experiencia operativa <span>+</span> capacidad para hacerlo simple</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PREGUNTAS FRECUENTES -->
+  <section id="preguntas">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Preguntas frecuentes</p>
+        <h2>Lo que conviene saber antes de una consulta</h2>
+      </div>
+      <div class="faq">
+        <details open>
+          <summary>¿Qué hace una consultoría empresarial como Capitalízate?</summary>
+          <p>Ofrece un espacio independiente para pensar decisiones empresariales importantes. Analiza los recursos de su empresa —capital, personas, activos, clientes, procesos y tiempo—, sus alternativas, su costo de oportunidad y el entorno económico, para que usted decida con criterio.</p>
+        </details>
+        <details>
+          <summary>¿La primera sesión tiene costo?</summary>
+          <p>Sí. En esa primera sesión usted plantea la decisión que enfrenta y definimos juntos el alcance y la mejor forma de trabajar.<!-- PENDIENTE: precio, si se publica --></p>
+        </details>
+        <details>
+          <summary>¿Cómo se cobra el servicio?</summary>
+          <p>Después de la primera sesión se propone un paquete de horas de acuerdo con el tamaño de la decisión. Algunas se resuelven en una o dos sesiones; otras requieren más análisis.</p>
+        </details>
+        <details>
+          <summary>¿Capitalízate reemplaza a mi contador o a mi director financiero?</summary>
+          <p>No. Capitalízate no sustituye a sus especialistas: le ayuda a saber qué preguntarles e integra sus respuestas en una decisión empresarial completa.</p>
+        </details>
+        <details>
+          <summary>¿Qué es el costo de oportunidad y por qué importa?</summary>
+          <p>Es el valor de lo que su empresa deja de obtener al elegir una opción en lugar de otra. Considerarlo evita decisiones que parecen convenientes pero terminan costando más.</p>
+        </details>
+        <details>
+          <summary>¿Atienden fuera de Cancún?</summary>
+          <p>Sí. Las sesiones son presenciales en Cancún y también en línea, para empresas de la Riviera Maya o de otras ciudades.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section class="contact" id="contacto">
+    <div class="wrap contact-grid">
+      <div>
+        <p class="eyebrow">Contacto</p>
+        <h2>Agendar primera sesión</h2>
+        <p class="lead">Cuéntenos brevemente la decisión que está enfrentando. Con esa información preparamos su primera sesión.</p>
+        <a class="btn btn-light" data-agenda-direct href="#" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg> Ver horarios disponibles</a>
+        <ul class="channels">
+          <li><a data-wa href="#"><span class="ic"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2c-1.5 0-3-.4-4.3-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Z"/></svg></span><span><small>WhatsApp</small>998 180 4486</span></a></li>
+          <li><a href="mailto:consultoria@capitalizatebygretel.com"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></span><span><small>Correo</small>consultoria@capitalizatebygretel.com</span></a></li>
+          <li><span class="chan"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21Z"/><circle cx="12" cy="9.5" r="2.5"/></svg></span><span><small>Oficina</small>Cancún, Quintana Roo · también en línea</span></span></li><!-- PENDIENTE: dirección exacta y mapa -->
+        </ul>
+      </div>
+      <form id="contactForm" novalidate>
+        <h3>Prepare su primera sesión</h3>
+        <p>Al enviar, se abrirá WhatsApp con su mensaje listo para agendar.</p>
+        <div class="f"><label for="cf-nombre">Nombre</label><input id="cf-nombre" required autocomplete="name"></div>
+        <div class="f-row">
+          <div class="f"><label for="cf-empresa">Empresa</label><input id="cf-empresa" autocomplete="organization"></div>
+          <div class="f"><label for="cf-empleados">Empleados</label>
+            <select id="cf-empleados"><option value="">Seleccione</option><option>Aún no tengo empresa</option><option>1 a 10</option><option>11 a 50</option><option>51 a 250</option><option>Más de 250</option></select></div>
+        </div>
+        <div class="f"><label for="cf-decision">¿Qué decisión está buscando tomar?</label><textarea id="cf-decision" required></textarea></div>
+        <div class="f"><label for="cf-opciones">¿Qué opciones ha considerado? <span class="opt-l">(opcional)</span></label><textarea id="cf-opciones" style="min-height:70px"></textarea></div>
+        <label class="consent"><input type="checkbox" id="cf-ok" required> <span>He leído el <a href="aviso-de-privacidad.html">aviso de privacidad</a> y autorizo el uso de mis datos para atender esta solicitud.</span></label>
+        <button class="btn btn-primary" type="submit">Enviar y agendar</button>
+        <p class="form-note" id="cf-note" role="status"></p>
+      </form>
+    </div>
+  </section>
+</main>
+
+
+<footer>
+  <div class="wrap">
+    <div class="foot">
+      <a class="brand" href="#top"><img class="logo logo-foot" src="assets/logo-encabezado-claro.png?v=2" alt="Capitalízate by Gretel García" width="480" height="166"></a>
+      <ul class="foot-links">
+        <li><a href="#" aria-label="Instagram">Instagram</a></li><!-- PENDIENTE: enlaces de redes -->
+        <li><a href="#" aria-label="Facebook">Facebook</a></li>
+        <li><a href="#" aria-label="LinkedIn">LinkedIn</a></li>
+      </ul>
+    </div>
+    <div class="legal">
+      <span>© <span id="y">2026</span> Capitalízate by Gretel García · Consultoría empresarial en Cancún, Quintana Roo</span>
+      <a href="aviso-de-privacidad.html">Aviso de privacidad</a>
+    </div>
+  </div>
+</footer>
+
+<a class="wa-float" data-wa href="#" aria-label="Escribir por WhatsApp">
+  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2c-1.5 0-3-.4-4.3-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.4.1-.2 0-.3 0-.4l-.8-1.9c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.7.5-.1 1.5-.6 1.8-1.2.2-.6.2-1.1.1-1.2l-.5-.3Z"/></svg>
+</a>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "¿Qué hace una consultoría empresarial como Capitalízate?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ofrece un espacio independiente para pensar decisiones empresariales importantes. Analiza los recursos de su empresa —capital, personas, activos, clientes, procesos y tiempo—, sus alternativas, su costo de oportunidad y el entorno económico, para que usted decida con criterio."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿La primera sesión tiene costo?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sí. En esa primera sesión usted plantea la decisión que enfrenta y definimos juntos el alcance y la mejor forma de trabajar."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo se cobra el servicio?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Después de la primera sesión se propone un paquete de horas de acuerdo con el tamaño de la decisión. Algunas se resuelven en una o dos sesiones; otras requieren más análisis."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Capitalízate reemplaza a mi contador o a mi director financiero?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Capitalízate no sustituye a sus especialistas: le ayuda a saber qué preguntarles e integra sus respuestas en una decisión empresarial completa."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es el costo de oportunidad y por qué importa?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Es el valor de lo que su empresa deja de obtener al elegir una opción en lugar de otra. Considerarlo evita decisiones que parecen convenientes pero terminan costando más."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Atienden fuera de Cancún?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sí. Las sesiones son presenciales en Cancún y también en línea, para empresas de la Riviera Maya o de otras ciudades."
+      }
+    }
+  ]
+}
+</script>
+<script>
+const WA_NUM = "529981804486";
+// Enlace de Calendly de Gretel. Mientras esté vacío, los botones de agenda llevan al formulario.
+const CALENDLY = "";
+const waLink = txt => `https://wa.me/${WA_NUM}?text=${encodeURIComponent(txt)}`;
+const track = (ev, params) => window.gtag && gtag("event", ev, params); // se activa al instalar GA4
+const where = el => el.closest("section,header,footer")?.id || el.closest("section")?.className || "flotante";
+
+document.querySelectorAll("[data-wa]").forEach(a => {
+  a.href = waLink("Hola, me interesa agendar una primera sesión con Capitalízate.");
+  a.target = "_blank"; a.rel = "noopener";
+  a.addEventListener("click", () => track("clic_whatsapp", {ubicacion: where(a)}));
+});
+document.querySelectorAll("[data-agenda]").forEach(a =>
+  a.addEventListener("click", () => track("clic_agendar", {ubicacion: where(a)})));
+if (CALENDLY){
+  const direct = document.querySelector("[data-agenda-direct]");
+  direct.href = CALENDLY; direct.target = "_blank"; direct.rel = "noopener"; direct.hidden = false;
+  direct.addEventListener("click", () => track("clic_calendly"));
+}
+
+const form = document.getElementById("contactForm");
+form.addEventListener("submit", e => {
+  e.preventDefault();
+  const val = id => form.querySelector(id).value.trim();
+  const nombre = val("#cf-nombre"), empresa = val("#cf-empresa"), empleados = val("#cf-empleados");
+  const decision = val("#cf-decision"), opciones = val("#cf-opciones");
+  const note = document.getElementById("cf-note");
+  if (!nombre || !decision || !form.querySelector("#cf-ok").checked){
+    note.textContent = "Por favor complete su nombre, la decisión que busca tomar y acepte el aviso de privacidad."; return;
+  }
+  note.textContent = "";
+  track("formulario_enviado", {empleados});
+  const msg = [
+    `Hola, soy ${nombre}${empresa ? " de " + empresa : ""}. Me gustaría agendar una primera sesión.`,
+    empleados && `Empleados: ${empleados}`,
+    `Decisión que busco tomar: ${decision}`,
+    opciones && `Opciones que he considerado: ${opciones}`
+  ].filter(Boolean).join("\n\n");
+  window.open(waLink(msg), "_blank", "noopener");
+});
+
+const burger = document.querySelector(".burger"), menu = document.getElementById("menu");
+burger.addEventListener("click", () => { const o = menu.classList.toggle("open"); burger.setAttribute("aria-expanded", o); });
+menu.addEventListener("click", e => { if (e.target.closest("a")) { menu.classList.remove("open"); burger.setAttribute("aria-expanded", false); } });
+const header = document.querySelector("header");
+addEventListener("scroll", () => header.classList.toggle("scrolled", scrollY > 8), {passive:true});
+document.getElementById("y").textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
