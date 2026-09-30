@@ -1,0 +1,25 @@
+# capitalizatebygretel.com
+User-agent: *
+Allow: /
+
+# Asistentes de IA y buscadores generativos: bienvenidos
+User-agent: GPTBot
+Allow: /
+User-agent: OAI-SearchBot
+Allow: /
+User-agent: ChatGPT-User
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: Claude-SearchBot
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: Google-Extended
+Allow: /
+
+Sitemap: https://capitalizatebygretel.com/sitemap.xml
+
+# Contexto para asistentes de IA (https://llmstxt.org)
+# https://capitalizatebygretel.com/llms.txt
+# https://capitalizatebygretel.com/llms-full.txt
