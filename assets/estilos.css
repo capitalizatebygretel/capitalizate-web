@@ -246,3 +246,5 @@ footer a:hover{text-decoration:underline}
 .cta-card .btn{width:100%;justify-content:center}
 .cta-card small{display:block;text-align:center;color:var(--muted);margin-top:12px;font-size:.85rem}
 
+
+.btn-wrap{white-space:normal;line-height:1.35;text-align:center;padding-top:14px;padding-bottom:14px}
