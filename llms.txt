@@ -32,12 +32,12 @@ Dueños y directores de empresas establecidas de 5 a 100 empleados, donde ya exi
 - Capitalízate nunca empieza preguntando qué le falta a la empresa: empieza por lo que tiene, cómo lo utiliza y qué valor le está generando.
 - Método en seis pasos: Aclarar → Priorizar → Preguntar → Informarse → Integrar → Decidir.
 - No sustituye a los especialistas de la empresa: ayuda a saber qué preguntarles e integra sus respuestas en una decisión.
-- Honorarios definidos por el valor de la decisión, no por hora. La primera sesión tiene costo y se solicita desde el formulario del sitio o por WhatsApp; el equipo analiza cada solicitud y coordina la fecha y la modalidad.
+- Honorarios definidos por el valor de la decisión, no por hora. La consulta empresarial tiene costo y se solicita desde el formulario del sitio o por WhatsApp; Capitalízate revisa cada solicitud para entender el contexto y preparar la conversación.
 
 ## Páginas del sitio
 
 - [Inicio](https://capitalizatebygretel.com/)
-- [Solicitar primera sesión](https://capitalizatebygretel.com/solicitud.html)
+- [Solicitar una consulta empresarial](https://capitalizatebygretel.com/solicitud.html)
 - [Aviso de privacidad](https://capitalizatebygretel.com/aviso-de-privacidad.html)
 - [Aviso legal](https://capitalizatebygretel.com/aviso-legal.html)
 - [Versión completa para asistentes de IA](https://capitalizatebygretel.com/llms-full.txt)
