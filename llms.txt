@@ -36,6 +36,7 @@ Dueños y directores de empresas establecidas de 5 a 100 empleados, donde ya exi
 ## Páginas del sitio
 
 - [Inicio](https://capitalizatebygretel.com/)
+- [Solicitar primera sesión](https://capitalizatebygretel.com/solicitud.html)
 - [Aviso de privacidad](https://capitalizatebygretel.com/aviso-de-privacidad.html)
 - [Aviso legal](https://capitalizatebygretel.com/aviso-legal.html)
 - [Versión completa para asistentes de IA](https://capitalizatebygretel.com/llms-full.txt)
