@@ -7,7 +7,7 @@ const track = (ev, params) => window.gtag && gtag("event", ev, params); // se ac
 const where = el => el.closest("section,header,footer")?.id || el.closest("section")?.className || "flotante";
 
 document.querySelectorAll("[data-wa]").forEach(a => {
-  a.href = waLink("Hola, me interesa solicitar una consulta empresarial con Capitalízate.");
+  a.href = waLink("Hola, me interesa una Consulta Empresarial con Capitalízate. Tengo una decisión importante que quisiera analizar.");
   a.target = "_blank"; a.rel = "noopener";
   a.addEventListener("click", () => track("clic_whatsapp", {ubicacion: where(a)}));
 });
@@ -51,7 +51,7 @@ if (form) form.addEventListener("submit", async e => {
   }
   // Sin conexión configurada: la solicitud se envía por WhatsApp
   const msg = [
-    `Hola, soy ${d.nombre}${d.empresa ? " de " + d.empresa : ""}. Me gustaría solicitar una consulta empresarial.`,
+    `Hola, soy ${d.nombre}${d.empresa ? " de " + d.empresa : ""}. Me interesa una Consulta Empresarial.`,
     d.giro && `A qué se dedica la empresa: ${d.giro}`,
     `Lo que me gustaría analizar: ${d.decision}`,
     d.claridad && `Lo que me gustaría tener más claro: ${d.claridad}`,

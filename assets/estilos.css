@@ -8,7 +8,7 @@
 }
 *{box-sizing:border-box}
 [hidden]{display:none!important}
-html{scroll-behavior:smooth;scroll-padding-top:84px}
+html{scroll-behavior:smooth;scroll-padding-top:104px}
 body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.65 var(--sans);-webkit-font-smoothing:antialiased}
 img{max-width:100%;display:block}
 a{color:var(--teal)}
@@ -38,16 +38,16 @@ section{padding:104px 0}
 /* Header */
 header{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--paper) 92%,transparent);backdrop-filter:blur(10px);border-bottom:1px solid transparent;transition:border-color .2s}
 header.scrolled{border-bottom-color:var(--line)}
-.nav{display:flex;align-items:center;justify-content:space-between;height:76px}
+.nav{display:flex;align-items:center;justify-content:space-between;height:96px}
 .brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:var(--ink)}
-.brand .logo{height:50px;width:auto}
+.brand .logo{height:72px;width:auto}
 .brand .logo-foot{height:56px}
 .brand-name{font-family:var(--serif);font-size:1.35rem;font-weight:600;line-height:1}
 .brand-name small{display:block;font-family:var(--sans);font-size:.68rem;font-weight:500;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin-top:4px}
 .menu{display:flex;align-items:center;gap:30px;list-style:none;margin:0;padding:0}
 .menu a{text-decoration:none;color:var(--ink);font-size:.95rem;font-weight:500}
 .menu a:hover{color:var(--teal)}
-.menu .btn{padding:11px 20px;color:#fff}
+.menu .btn{padding:11px 20px;color:#fff;font-size:.95rem;font-weight:500}
 .burger{display:none;background:none;border:0;padding:8px;cursor:pointer;color:var(--ink)}
 .burger svg{width:26px;height:26px}
 
@@ -102,6 +102,10 @@ header.scrolled{border-bottom-color:var(--line)}
 .steps p{color:var(--muted);margin:0;font-size:.97rem}
 
 /* Sobre Gretel */
+.firm-head{max-width:980px;margin-bottom:56px}
+.firm-points{list-style:none;padding:0;margin:28px auto 0;display:grid;grid-template-columns:repeat(3,1fr);gap:14px;text-align:left}
+.firm-points li{background:var(--white);border:1px solid var(--line);border-radius:14px;padding:18px 20px;font-size:.95rem}
+.firm-points b{display:block;font-family:var(--serif);font-weight:500;font-size:1.05rem;color:var(--teal-deep);margin-bottom:4px}
 .about-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:64px;align-items:center}
 .portrait{aspect-ratio:4/5;border-radius:24px;background:var(--teal-deep);display:grid;place-items:center;position:relative;overflow:hidden}
 .portrait img{width:62%}
@@ -224,11 +228,11 @@ footer a:hover{text-decoration:underline}
   section{padding:72px 0}
   .hero{padding:56px 0 64px}
   .burger{display:block}
-  .menu{position:fixed;inset:76px 0 auto 0;background:var(--paper);flex-direction:column;align-items:stretch;gap:0;padding:8px 20px 24px;border-bottom:1px solid var(--line);display:none}
+  .menu{position:fixed;inset:80px 0 auto 0;background:var(--paper);flex-direction:column;align-items:stretch;gap:0;padding:8px 20px 24px;border-bottom:1px solid var(--line);display:none}
   .menu.open{display:flex}
   .menu li a{display:block;padding:14px 0;border-bottom:1px solid var(--line)}
   .menu li:last-child a{border:0;margin-top:14px;justify-content:center}
-  .cards,.q-grid,.steps,.creds{grid-template-columns:1fr}
+  .cards,.q-grid,.steps,.creds,.firm-points{grid-template-columns:1fr}
   .principle{flex-direction:column}
   form{padding:26px 20px}
 }
@@ -248,3 +252,5 @@ footer a:hover{text-decoration:underline}
 
 
 .btn-wrap{white-space:normal;line-height:1.35;text-align:center;padding-top:14px;padding-bottom:14px}
+
+@media (max-width:760px){.nav{height:80px}.brand .logo{height:58px}}
