@@ -129,7 +129,7 @@ details p{color:var(--muted);margin:0 0 18px;max-width:700px}
 .contact{background:var(--teal-deep);color:#fff}
 .contact .eyebrow{color:var(--gold-warm)}
 .contact .lead{color:#d9d4c6}
-.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:start}
+.contact-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:64px;align-items:center}
 .contact h2{margin-bottom:18px}
 .channels{list-style:none;padding:0;margin:32px 0 0;display:grid;gap:14px}
 .channels a{color:#fff;text-decoration:none;display:flex;gap:14px;align-items:center}
@@ -241,13 +241,14 @@ footer a:hover{text-decoration:underline}
 
 /* Página de solicitud */
 .page-solicitud{padding:72px 0 96px;min-height:calc(100vh - 120px)}
+@media (min-width:921px){.page-solicitud .contact-grid{grid-template-columns:1fr 1fr;gap:56px;align-items:start}}
 .page-solicitud h1{color:#fff;font-size:clamp(2.3rem,5vw,3.4rem);margin-bottom:18px}
 .apply-note{margin:28px 0 0;padding:16px 18px;border:1px solid rgba(185,149,88,.35);border-radius:14px;color:#d9d4c6;font-size:.93rem}
 .apply-note strong{color:var(--gold-warm);font-weight:600}
 /* Tarjeta de llamada a la acción en el inicio */
-.cta-card{background:#fff;color:var(--ink);border-radius:22px;padding:34px 30px;align-self:start}
-.cta-card h3{font-size:1.6rem;margin-bottom:10px}
-.cta-card p{color:var(--muted);margin:0 0 22px}
+.cta-card{background:#fff;color:var(--ink);border-radius:22px;padding:40px 34px;align-self:center;text-align:center}
+.cta-card h3{font-size:1.75rem;line-height:1.2;margin-bottom:12px}
+.cta-card p{color:var(--muted);margin:0 0 26px;font-size:1rem}
 .cta-card .btn{width:100%;justify-content:center}
 .cta-card small{display:block;text-align:center;color:var(--muted);margin-top:12px;font-size:.85rem}
 
