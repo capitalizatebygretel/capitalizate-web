@@ -116,6 +116,7 @@ header.scrolled{border-bottom-color:var(--line)}
 .formula span{color:var(--orange-ink)}
 
 /* FAQ */
+#preguntas{background:var(--white);border-top:1px solid var(--line)}
 .faq{max-width:820px}
 details{border-bottom:1px solid var(--line);padding:6px 0}
 summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;gap:20px;align-items:center;padding:18px 0;font-family:var(--serif);font-size:1.4rem;font-weight:600}
