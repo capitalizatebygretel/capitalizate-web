@@ -45,7 +45,7 @@ if (form) form.addEventListener("submit", async e => {
         body: JSON.stringify({...d, fecha: new Date().toISOString(), pagina: location.href})});
       showDone();
     } catch (err) {
-      note.textContent = "No pudimos enviar su solicitud. Por favor intente de nuevo o escríbanos por WhatsApp.";
+      note.textContent = "No pudimos enviar sus datos. Por favor intente de nuevo o escríbanos por WhatsApp.";
     } finally { btn.disabled = false; btn.textContent = btnText; }
     return;
   }
