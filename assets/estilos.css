@@ -256,3 +256,86 @@ footer a:hover{text-decoration:underline}
 .btn-wrap{white-space:normal;line-height:1.35;text-align:center;padding-top:14px;padding-bottom:14px}
 
 @media (max-width:760px){.nav{height:80px}.brand .logo{height:58px}}
+
+/* v9: fotos reales, mapa de valor visual y espacio */
+.hero-photo img{aspect-ratio:9/11;object-position:50% 30%}
+.portrait{margin:0;display:block}
+.portrait img{width:100%;height:100%;object-fit:cover;object-position:50% 80%}
+.how-photo img{object-position:50% 30%}
+.vm-visual{margin:0;display:grid;place-items:center}
+.vm-svg{width:100%;max-width:440px;height:auto}
+.vm-ask{margin:56px 0 18px;font-family:var(--serif);font-size:1.4rem;color:var(--teal-deep)}
+.valuemap .vm-list{grid-template-columns:repeat(3,1fr);gap:14px}
+.space{background:var(--teal-soft)}
+.space-grid{display:grid;grid-template-columns:2fr 1fr;gap:16px;align-items:stretch}
+.space-grid figure{margin:0;overflow:hidden;border-radius:22px;background:var(--line)}
+.space-grid img{width:100%;height:100%;object-fit:cover}
+.space-addr{margin:22px 0 0;font-size:.9rem;font-weight:500;letter-spacing:.04em;color:var(--teal)}
+@media (max-width:920px){
+  .valuemap .vm-list{grid-template-columns:1fr 1fr}
+  .space-grid{grid-template-columns:1fr}
+  .sp-side img{aspect-ratio:4/3}
+}
+@media (max-width:760px){
+  .valuemap .vm-list{grid-template-columns:1fr}
+  .vm-ask{margin-top:40px}
+}
+@media (min-width:761px) and (max-width:1100px){
+  .menu{gap:18px}
+  .menu a{white-space:nowrap;font-size:.9rem}
+  .brand .logo{height:60px}
+}
+/* v9b: retrato de la fundadora llena la altura del texto */
+.about-grid{align-items:stretch}
+.portrait{aspect-ratio:auto;height:100%;min-height:520px}
+.portrait img{object-position:50% 50%}
+@media (max-width:920px){
+  .portrait{aspect-ratio:4/5;height:auto;min-height:0;max-width:420px}
+}
+/* v9c: bloques con foto de fondo */
+.quote{background:linear-gradient(rgba(11,43,45,.68),rgba(11,43,45,.82)),url(fotos/escritorio-escribiendo-horizontal.jpg) center 22%/cover no-repeat,var(--teal-deep)}
+.contact{background:linear-gradient(rgba(11,43,45,.84),rgba(11,43,45,.90)),url(fotos/oficina-amplia-900.jpg) center/cover no-repeat,var(--teal-deep)}
+@media (max-width:760px){
+  .quote{background-image:linear-gradient(rgba(11,43,45,.82),rgba(11,43,45,.90)),url(fotos/escritorio-escribiendo-horizontal-900.jpg)}
+}
+
+/* v9d: mapa en contacto */
+.contact-side{display:grid;gap:18px;align-self:center}
+.map-embed{height:250px;border-radius:22px;overflow:hidden;border:1px solid rgba(185,149,88,.4);background:var(--teal-soft)}
+.map-embed iframe{display:block;width:100%;height:100%;border:0}
+/* v10: menos aire arriba del inicio */
+.hero{padding:32px 0 80px}
+@media (max-width:760px){.hero{padding:20px 0 56px}}
+
+/* v12: foto en Qué hacemos */
+.head-split{display:grid;grid-template-columns:1.2fr .8fr;gap:56px;align-items:center;margin-bottom:56px}
+.head-split .section-head{margin-bottom:0;max-width:none}
+.head-photo{margin:0}
+.head-photo img{width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;object-position:50% 40%;border-radius:28px 28px 120px 28px}
+@media (max-width:920px){
+  .head-split{grid-template-columns:1fr;gap:32px}
+  .head-photo{max-width:520px}
+  .head-photo img{aspect-ratio:4/3;border-radius:24px 24px 24px 80px}
+}
+
+/* v13: portada compacta, se ve completa a tamaño normal */
+@media (min-width:921px){
+  .hero{padding:24px 0 56px}
+  .hero h1{font-size:clamp(2.4rem,4.2vw,3.7rem);margin-bottom:20px}
+  .hero .lead{margin-bottom:26px;font-size:1.08rem}
+  .hero .eyebrow{margin-bottom:14px}
+  .hero .btn{padding:13px 24px}
+  .hero-photo img{aspect-ratio:auto;height:calc(100vh - 300px);min-height:380px;max-height:620px}
+}
+
+/* v14: Cómo trabajamos compacto, foto de la misma altura que los pasos */
+@media (min-width:921px){
+  .how-grid{align-items:stretch;gap:36px}
+  .how-grid .steps{row-gap:18px;column-gap:26px}
+  .how-grid .steps li{padding-top:14px}
+  .how-grid .steps li::before{padding-top:10px}
+  .how-grid .steps h3{margin:22px 0 6px;font-size:1.15rem}
+  .how-grid .steps p{font-size:.92rem;line-height:1.5}
+  .how-photo{display:flex}
+  .how-photo img{height:100%;aspect-ratio:auto;object-position:50% 30%}
+}
