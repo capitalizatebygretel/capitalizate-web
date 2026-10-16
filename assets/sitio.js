@@ -1,7 +1,7 @@
 const WA_NUM = "529981804486";
 // URL de la implementación de Apps Script de Gretel (ver "Configurar solicitudes del sitio.md").
 // Mientras esté vacía, la solicitud se envía por WhatsApp.
-const SOLICITUDES_URL = "";
+const SOLICITUDES_URL = "https://script.google.com/macros/s/AKfycbyRHF0n-ene_4BNxHfpfhVgpWHXSRZ8OQrg47KkszkrqzzA2VGKnUf2y50lQal68lUl/exec";
 const waLink = txt => `https://wa.me/${WA_NUM}?text=${encodeURIComponent(txt)}`;
 // Envía el evento a Google Tag Manager (dataLayer); desde allí se manda a Google Analytics.
 const track = (ev, params) => { (window.dataLayer = window.dataLayer || []).push({event: ev, ...params}); };
