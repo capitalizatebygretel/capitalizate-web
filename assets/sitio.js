@@ -3,7 +3,8 @@ const WA_NUM = "529981804486";
 // Mientras esté vacía, la solicitud se envía por WhatsApp.
 const SOLICITUDES_URL = "";
 const waLink = txt => `https://wa.me/${WA_NUM}?text=${encodeURIComponent(txt)}`;
-const track = (ev, params) => window.gtag && gtag("event", ev, params); // se activa al instalar GA4
+// Envía el evento a Google Tag Manager (dataLayer); desde allí se manda a Google Analytics.
+const track = (ev, params) => { (window.dataLayer = window.dataLayer || []).push({event: ev, ...params}); };
 const where = el => el.closest("section,header,footer")?.id || el.closest("section")?.className || "flotante";
 
 document.querySelectorAll("[data-wa]").forEach(a => {
