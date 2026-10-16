@@ -1,13 +1,13 @@
 # Capitalízate by Gretel García — Consultoría empresarial para decisiones económicamente fundamentadas
 
-> Consultoría empresarial para decisiones económicamente fundamentadas. Firma boutique con sede en Cancún que atiende presencialmente y en línea a empresas de cualquier ciudad. Ofrece un espacio profesional e independiente para pensar decisiones empresariales importantes antes de comprometer los recursos de la empresa. Fundada y dirigida por Gretel García, economista.
+> Consultoría empresarial para decisiones económicamente fundamentadas. Firma boutique con sede en Cancún que atiende presencialmente y en línea a empresas de cualquier ciudad. Aplica el Modelo MAR (Modelo de Asignación Racional), un método propio que mide cómo la empresa asigna sus recursos y compara las alternativas por su costo de oportunidad, para tomar decisiones racionales. Fundada y dirigida por Gretel García, economista.
 
 ## Datos clave
 
 - **Nombre**: Capitalízate by Gretel García
 - **Tipo**: Firma boutique de consultoría empresarial
 - **Descriptor**: Consultoría empresarial para decisiones económicamente fundamentadas
-- **Fundada**: 2007, en Cancún
+- **Fundada**: 2007, en Cancún; hoy en una nueva etapa
 - **Objetivo principal**: maximizar las utilidades económicas de la empresa
 - **Fundadora**: Gretel García Montes de Oca — economista (Universidad de La Habana), Maestra en Administración de Empresas (Tecnológico de Monterrey), más de 23 años en el sector empresarial, más de 20 años de docencia en licenciatura, maestrías, MBA y formación ejecutiva; cursa estudios doctorales
 - **Ubicación**: Av. Huayacán 19, Mza. 130, Lt. 19, SM 313, C.P. 77560, Cancún, Quintana Roo, México (atención con cita; también en línea)
@@ -32,7 +32,9 @@ Dueños y directores de empresas establecidas, donde ya existe cierta complejida
 
 - Principio: **el cliente de Capitalízate es la empresa**. “En la mesa de Capitalízate, el primero que se sienta es la empresa.”
 - Capitalízate nunca empieza preguntando qué le falta a la empresa: empieza por lo que tiene, cómo lo utiliza y qué valor le está generando.
-- Método en seis pasos: Aclarar → Priorizar → Preguntar → Informarse → Integrar → Decidir.
+- **Modelo MAR (Modelo de Asignación Racional)**: método propio que mide cómo la empresa asigna sus cinco recursos (capital, personas, activos, procesos y tiempo), identifica dónde se pierde valor y compara alternativas por su costo de oportunidad. Se apoya en la productividad de los factores (Solow), el tiempo como recurso escaso (Becker) y las decisiones bajo información limitada (Simon). Trabaja con proporciones y porcentajes, no con montos.
+- Seis pasos: Aclarar → Diagnosticar → Preguntar → Informarse → Comparar → Decidir.
+- El modelo se aplica dentro de la empresa del cliente; el primer acercamiento puede ser en la oficina de Cancún o en línea.
 - No sustituye a los especialistas de la empresa: ayuda a saber qué preguntarles e integra sus respuestas en una decisión.
 - Honorarios definidos por el valor de la decisión, no por hora. La consulta empresarial tiene costo y se inicia desde el formulario del sitio o por WhatsApp; Capitalízate revisa cada caso para entender el contexto y preparar la conversación.
 
