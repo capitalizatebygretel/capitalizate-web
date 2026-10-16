@@ -181,6 +181,9 @@ footer a:hover{text-decoration:underline}
 .how-grid .steps{grid-template-columns:repeat(2,1fr);row-gap:34px}
 .how-photo{margin:0}
 .how-photo img{width:100%;height:auto;aspect-ratio:8/9;object-fit:cover;border-radius:22px}
+.outcome{margin:48px 0 0;background:var(--teal-soft);border-left:3px solid var(--orange);border-radius:0 16px 16px 0;padding:24px 28px}
+.outcome strong{display:block;font-family:var(--serif);font-weight:500;font-size:1.3rem;color:var(--teal-deep);margin-bottom:6px}
+.outcome p{margin:0;color:var(--muted)}
 .modality{margin:40px 0 0;text-align:center;font-size:.9rem;font-weight:500;letter-spacing:.04em;color:var(--teal)}
 .forwhom{background:var(--white);border-top:1px solid var(--line)}
 .fw-grid{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center}
