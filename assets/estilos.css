@@ -72,7 +72,7 @@ header.scrolled{border-bottom-color:var(--line)}
 /* Servicios */
 .section-head{max-width:720px;margin-bottom:56px}
 .section-head h2{margin-bottom:18px}
-.cards{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
 .card{background:var(--white);border:1px solid var(--line);border-radius:18px;padding:26px 26px 24px;position:relative}
 .card .num{font-family:var(--sans);font-size:.72rem;font-weight:600;letter-spacing:.18em;font-variant-numeric:lining-nums;color:var(--orange-ink);margin-bottom:10px;display:block}
 .card h3{margin-bottom:8px;font-size:1.3rem}
@@ -172,6 +172,10 @@ footer a:hover{text-decoration:underline}
 .valuemap{background:var(--teal-soft)}
 .vm-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:56px;align-items:center}
 .vm-grid h2{margin-bottom:18px}
+.vm-sub{font-size:1.3rem;margin:26px 0 10px;color:var(--teal-deep)}
+.vm-res{list-style:none;padding:0;margin:0;display:grid;gap:8px;color:var(--muted);font-size:.98rem}
+.vm-res b{color:var(--teal-deep);font-weight:600}
+.vm-time{color:var(--muted);font-size:.98rem;margin:0}
 .vm-close{margin-top:22px;font-family:var(--serif);font-size:1.15rem;color:var(--teal-deep)}
 .vm-list{list-style:none;padding:0;margin:0;display:grid;gap:12px;counter-reset:v}
 .vm-list li{counter-increment:v;background:var(--white);border-radius:14px;padding:16px 18px 16px 58px;position:relative;border:1px solid color-mix(in srgb,var(--teal) 15%,transparent)}
