@@ -346,3 +346,8 @@ footer a:hover{text-decoration:underline}
   .how-photo{display:flex}
   .how-photo img{height:100%;aspect-ratio:auto;object-position:50% 30%}
 }
+
+/* Foto horizontal en Qué hacemos */
+.head-split:has(.head-photo-wide){grid-template-columns:1fr 1fr}
+.head-photo-wide img{aspect-ratio:3/2;object-position:50% 50%}
+@media (max-width:920px){.head-split:has(.head-photo-wide){grid-template-columns:1fr}.head-photo-wide img{aspect-ratio:3/2}}
