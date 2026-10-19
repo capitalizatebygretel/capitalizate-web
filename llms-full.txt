@@ -41,7 +41,7 @@ Capitalízate no sustituye a los especialistas de la empresa (contador, área co
 
 Un método propio, aplicado dentro de la empresa. Toda empresa trabaja con recursos escasos. El Modelo MARL mide cómo se están asignando esos recursos, dónde generan valor y dónde se pierde, y compara las alternativas por su costo de oportunidad. Se apoya en tres ideas de la economía: la productividad de los factores (Solow), el tiempo como recurso escaso (Becker) y las decisiones bajo información limitada (Simon).
 
-Recursos que analiza: trabajadores (personas, horas y tareas), materia prima (insumos que la empresa compra, transforma o vende), capital (maquinaria, equipo y dinero) y habilidad empresarial (capacidad del empresario o gerente para generar valor usando eficientemente los demás recursos). El tiempo no es un quinto recurso: es la medida de cómo se usa cada uno de los cuatro por hora; por eso el modelo analiza cuánto rinden los recursos en cada hora.
+Recursos que analiza: trabajadores (personas, horas y tareas), materia prima (insumos que la empresa compra, transforma o vende), capital (maquinaria, equipo y dinero) y habilidad empresarial (capacidad del empresario o gerente para generar utilidades usando eficientemente los demás recursos). El tiempo no es un quinto recurso: es la medida de cómo se usa cada uno de los cuatro por hora; por eso el modelo analiza cuánto rinden los recursos en cada hora.
 
 : precisar la decisión y lo que está en juego.
 2. **Diagnosticar**: medir en la empresa cómo se distribuyen sus recursos y cuánto rinden en cada hora.
