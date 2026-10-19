@@ -1,6 +1,6 @@
 # Capitalízate by Gretel García — información completa
 
-> Consultoría empresarial para decisiones económicamente fundamentadas. Firma boutique con sede en Cancún. Con el Modelo MARL (Modelo de Asignación Racional) ayuda a decidir con racionalidad: con números y no con intuición.
+> Consultoría empresarial para decisiones económicamente fundamentadas. Firma boutique con sede en Cancún. Con el Modelo MARL (Modelo de Asignación de Recursos Limitados) ayuda a decidir con racionalidad: con números y no con intuición.
 
 Este documento resume el contenido del sitio https://capitalizatebygretel.com para asistentes de inteligencia artificial y buscadores generativos.
 
@@ -8,7 +8,7 @@ Este documento resume el contenido del sitio https://capitalizatebygretel.com pa
 
 Capitalízate by Gretel García es una firma boutique de consultoría empresarial con sede en Cancún, Quintana Roo, México. No da consejos: ayuda a decidir con racionalidad. Con un método propio, el Modelo MARL, analiza cómo la empresa usa sus recursos, para que cada decisión importante se tome con números y no con intuición.
 
-Capitalizar es hacer que aquello que una empresa ya tiene produzca más valor: su dinero, su experiencia, su tiempo, sus activos, su gente, su información y sus relaciones. La idea económica detrás de la marca: no se trata solo de gastar menos, sino de hacer que cada recurso produzca más valor.
+Capitalizar es hacer que aquello que una empresa ya tiene produzca más valor: su capital, su gente, sus insumos, su experiencia, su tiempo, su información y sus relaciones. La idea económica detrás de la marca: no se trata solo de gastar menos, sino de hacer que cada recurso produzca más valor.
 
 El empresario no necesita más información; necesita un método racional para convertir esa información en una decisión. Lo que obtiene con Capitalízate es criterio, independencia, análisis y experiencia.
 
@@ -16,7 +16,7 @@ El empresario no necesita más información; necesita un método racional para c
 
 El cliente de Capitalízate es la empresa. Aunque se trabaje con el dueño, el director, el gerente o el equipo, el análisis busca lo que genera mayor valor sostenible para la empresa en su conjunto, no los intereses particulares de una persona o un área. “En la mesa de Capitalízate, el primero que se sienta es la empresa.” La pregunta de fondo: si su empresa hablara, ¿qué le diría?
 
-Capitalízate analiza la empresa como un sistema completo: capital, personas, activos, procesos y tiempo están conectados. Nunca optimiza una parte de la empresa a costa de otra; busca el mejor resultado completo.
+Capitalízate analiza la empresa como un sistema completo: trabajadores, materia prima, capital y habilidad empresarial están conectados, y el tiempo mide cómo rinde cada uno. Nunca optimiza una parte de la empresa a costa de otra; busca el mejor resultado completo.
 
 ## Mapa de valor
 
@@ -31,19 +31,20 @@ Capitalízate nunca empieza preguntando qué le falta a la empresa. Empieza por 
 
 ## Servicios
 
-- **Productividad empresarial.** Se analiza cómo se están utilizando los recursos —personas, tiempo, activos— y dónde puede estarse perdiendo valor sin que se note.
-- **Análisis de decisiones empresariales.** Análisis de alternativas y de su costo de oportunidad antes de decidir: comprar una máquina o contratar a una persona, expandirse, entrar a un nuevo mercado, lanzar una campaña.
-- **Asignación de recursos.** Revisión de dónde está poniendo la empresa su capital, su tiempo y sus personas, y dónde deberían estar para producir mayor valor.
-- **Decisiones de crecimiento.** ¿Abrir una nueva ubicación? ¿Invertir en capacidad? ¿Incorporar tecnología? ¿Entrar a otro mercado? Analizamos alternativas, recursos necesarios y costo de oportunidad antes de comprometer a la empresa.
+- **Asignación de recursos y productividad.** Analizamos cómo usa su empresa el capital, el tiempo, las personas y los insumos, dónde se pierde valor sin que se note y dónde producirían más.
+- **Análisis de decisiones.** Antes de comprometer recursos, comparamos sus alternativas por su costo de oportunidad y su retorno esperado.
+- **Decisiones de crecimiento.** Abrir otra ubicación, invertir en capacidad, incorporar tecnología: analizamos lo que exige cada camino y el entorno económico en que tendrá que funcionar.
 
 Capitalízate no sustituye a los especialistas de la empresa (contador, área comercial, etc.): analiza cada decisión por su impacto económico, ayuda a formular las preguntas correctas e integra la información relevante en una decisión mejor fundamentada.
 
-## El Modelo MARL (Modelo de Asignación Racional)
+## El Modelo MARL (Modelo de Asignación de Recursos Limitados)
 
 Un método propio, aplicado dentro de la empresa. Toda empresa trabaja con recursos escasos. El Modelo MARL mide cómo se están asignando esos recursos, dónde generan valor y dónde se pierde, y compara las alternativas por su costo de oportunidad. Se apoya en tres ideas de la economía: la productividad de los factores (Solow), el tiempo como recurso escaso (Becker) y las decisiones bajo información limitada (Simon).
 
-1. **Aclarar**: precisar la decisión y lo que está en juego.
-2. **Diagnosticar**: medir en la empresa cómo se distribuyen capital, personas, activos, procesos y tiempo.
+Recursos que analiza: trabajadores (personas, horas y tareas), materia prima (insumos que la empresa compra, transforma o vende), capital (maquinaria, equipo y dinero) y habilidad empresarial (capacidad del empresario o gerente para generar valor usando eficientemente los demás recursos). El tiempo no es un quinto recurso: es la medida de cómo se usa cada uno de los cuatro por hora; por eso el modelo analiza cuánto rinden los recursos en cada hora.
+
+: precisar la decisión y lo que está en juego.
+2. **Diagnosticar**: medir en la empresa cómo se distribuyen sus recursos y cuánto rinden en cada hora.
 3. **Preguntar**: definir las preguntas correctas, también las que conviene hacer a los especialistas.
 4. **Informarse**: integrar los datos de la empresa con el entorno económico en que la decisión tendrá que funcionar.
 5. **Comparar**: evaluar cada alternativa por su costo de oportunidad y su retorno esperado.
@@ -63,11 +64,11 @@ La vida del empresario suele ser solitaria: muchas decisiones se toman sin tiemp
 
 ## Quiénes somos
 
-Capitalízate es una firma boutique de consultoría empresarial fundada en Cancún en 2007, hoy en una nueva etapa. Objetivo principal: maximizar las utilidades económicas de la empresa.
+Capitalízate es una firma boutique de consultoría empresarial fundada en Cancún en 2007. Objetivo principal: maximizar las utilidades económicas de la empresa.
 
 ## Fundadora: Gretel García
 
-Licenciada en Economía por la Universidad de La Habana y Maestra en Administración de Empresas por el Tecnológico de Monterrey. Más de 23 años en el sector empresarial (incluida la dirección de mercadotecnia corporativa de una cadena hotelera) y casi 20 años en docencia en la Universidad Anáhuac Cancún. Administra su propia empresa inmobiliaria y ha trabajado directamente con dueños de empresas de muy distintos tamaños, desde una reconocida marca de calzado hasta empresas turísticas, restaurantes y pymes locales. Durante más de 20 años ha formado a empresarios en licenciatura, maestrías, MBA y diplomados. Cursa estudios doctorales.
+Licenciada en Economía, Maestra en Administración de Empresas y doctorante. Durante casi 20 años ha formado empresarios en la Universidad Anáhuac Cancún, en licenciatura, maestrías, MBA y diplomados. Asesora a empresas de Cancún, desde una reconocida marca de calzado hasta empresas turísticas, restaurantes y pymes locales, y administra su propia empresa inmobiliaria.
 
 Su diferenciación combina conocimiento académico, experiencia operativa y capacidad para enseñar: puede diagnosticar porque tiene la formación, entiende al empresario porque administra, y explica qué hacer porque lleva años enseñando.
 
@@ -81,7 +82,7 @@ Su diferenciación combina conocimiento académico, experiencia operativa y capa
 ## Preguntas frecuentes
 
 **¿Qué es el Modelo MARL?**
-Es el método propio de Capitalízate para analizar decisiones empresariales con números y no con intuición. Se aplica dentro de su empresa, en seis pasos: de aclarar la decisión a tomarla.
+Es el método propio de Capitalízate para analizar decisiones empresariales. Mide cuánto rinden por hora los recursos de su empresa y compara sus alternativas por su costo de oportunidad, en seis pasos: de aclarar la decisión a tomarla.
 
 **¿Tengo que compartir las cifras de mi empresa?**
 No necesariamente. El modelo trabaja con proporciones y porcentajes, no con montos. Así podemos analizar su empresa a fondo sin que usted exponga cantidades sensibles.
