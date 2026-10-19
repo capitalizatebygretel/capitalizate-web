@@ -1,12 +1,12 @@
 # Capitalízate by Gretel García — información completa
 
-> Consultoría empresarial para decisiones económicamente fundamentadas. Firma boutique con sede en Cancún. Con el Modelo MAR (Modelo de Asignación Racional) ayuda a decidir con racionalidad: con números y no con intuición.
+> Consultoría empresarial para decisiones económicamente fundamentadas. Firma boutique con sede en Cancún. Con el Modelo MARL (Modelo de Asignación Racional) ayuda a decidir con racionalidad: con números y no con intuición.
 
 Este documento resume el contenido del sitio https://capitalizatebygretel.com para asistentes de inteligencia artificial y buscadores generativos.
 
 ## Qué es Capitalízate
 
-Capitalízate by Gretel García es una firma boutique de consultoría empresarial con sede en Cancún, Quintana Roo, México. No da consejos: ayuda a decidir con racionalidad. Con un método propio, el Modelo MAR, analiza cómo la empresa opera su capital, sus trabajadores, sus procesos y su tiempo, para que cada decisión importante se tome con números y no con intuición.
+Capitalízate by Gretel García es una firma boutique de consultoría empresarial con sede en Cancún, Quintana Roo, México. No da consejos: ayuda a decidir con racionalidad. Con un método propio, el Modelo MARL, analiza cómo la empresa usa sus recursos, para que cada decisión importante se tome con números y no con intuición.
 
 Capitalizar es hacer que aquello que una empresa ya tiene produzca más valor: su dinero, su experiencia, su tiempo, sus activos, su gente, su información y sus relaciones. La idea económica detrás de la marca: no se trata solo de gastar menos, sino de hacer que cada recurso produzca más valor.
 
@@ -38,9 +38,9 @@ Capitalízate nunca empieza preguntando qué le falta a la empresa. Empieza por 
 
 Capitalízate no sustituye a los especialistas de la empresa (contador, área comercial, etc.): analiza cada decisión por su impacto económico, ayuda a formular las preguntas correctas e integra la información relevante en una decisión mejor fundamentada.
 
-## El Modelo MAR (Modelo de Asignación Racional)
+## El Modelo MARL (Modelo de Asignación Racional)
 
-Un método propio, aplicado dentro de la empresa. Toda empresa trabaja con recursos escasos. El Modelo MAR mide cómo se están asignando esos recursos, dónde generan valor y dónde se pierde, y compara las alternativas por su costo de oportunidad. Se apoya en tres ideas de la economía: la productividad de los factores (Solow), el tiempo como recurso escaso (Becker) y las decisiones bajo información limitada (Simon).
+Un método propio, aplicado dentro de la empresa. Toda empresa trabaja con recursos escasos. El Modelo MARL mide cómo se están asignando esos recursos, dónde generan valor y dónde se pierde, y compara las alternativas por su costo de oportunidad. Se apoya en tres ideas de la economía: la productividad de los factores (Solow), el tiempo como recurso escaso (Becker) y las decisiones bajo información limitada (Simon).
 
 1. **Aclarar**: precisar la decisión y lo que está en juego.
 2. **Diagnosticar**: medir en la empresa cómo se distribuyen capital, personas, activos, procesos y tiempo.
@@ -59,7 +59,7 @@ El modelo se aplica en la empresa del cliente, donde ocurren las cosas. El prime
 - Directores y gerentes de empresas más grandes que necesitan una mirada externa antes de proponer una decisión.
 - Personas que están pensando poner un negocio o dejar su empleo para emprender.
 
-La vida del empresario suele ser solitaria: muchas decisiones se toman sin tiempo y sin alguien con quien pensarlas. Capitalízate es ese espacio.
+La vida del empresario suele ser solitaria: muchas decisiones se toman sin tiempo y sin alguien con quien analizarlas. Capitalízate acompaña ese análisis.
 
 ## Quiénes somos
 
@@ -80,8 +80,8 @@ Su diferenciación combina conocimiento académico, experiencia operativa y capa
 
 ## Preguntas frecuentes
 
-**¿Qué es el Modelo MAR?**
-Es el método propio de Capitalízate para analizar decisiones empresariales. Mide cómo su empresa asigna sus cinco recursos (capital, personas, activos, procesos y tiempo), identifica dónde se pierde valor y compara las alternativas por su costo de oportunidad.
+**¿Qué es el Modelo MARL?**
+Es el método propio de Capitalízate para analizar decisiones empresariales con números y no con intuición. Se aplica dentro de su empresa, en seis pasos: de aclarar la decisión a tomarla.
 
 **¿Tengo que compartir las cifras de mi empresa?**
 No necesariamente. El modelo trabaja con proporciones y porcentajes, no con montos. Así podemos analizar su empresa a fondo sin que usted exponga cantidades sensibles.
@@ -90,7 +90,7 @@ No necesariamente. El modelo trabaja con proporciones y porcentajes, no con mont
 Sí. Es una sesión de 60 minutos, presencial o en línea, en la que usted plantea su decisión y definimos juntos el alcance. El costo se le informa al agendar.
 
 **¿Qué hace una consultoría empresarial como Capitalízate?**
-Ofrece un espacio independiente para pensar decisiones empresariales importantes. Analiza los recursos de la empresa, sus alternativas, su costo de oportunidad y el entorno económico, para que el empresario decida con racionalidad.
+Analiza con fundamento económico las decisiones importantes de la empresa: los recursos que compromete, las alternativas que tiene y el entorno en que la decisión tendrá que funcionar, para que el empresario decida con racionalidad.
 
 **¿Qué es el costo de oportunidad y por qué importa?**
 Es el valor de lo que la empresa deja de obtener al elegir una opción en lugar de otra. Considerarlo evita decisiones que parecen convenientes pero terminan costando más.
