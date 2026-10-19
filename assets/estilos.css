@@ -416,3 +416,12 @@ html{scroll-padding-top:124px}
 /* v21: foto completa de Gretel en "Le asesora" */
 .hero-who img{width:140px;height:auto;aspect-ratio:2/3;border-radius:16px;object-fit:cover;object-position:50% 50%;border:none}
 @media (max-width:760px){.hero-who img{width:112px;height:auto}}
+
+/* v22: "Le asesora" centrado debajo del encabezado */
+.hero .hero-who{display:flex;flex-direction:column;align-items:center;text-align:center;gap:0;margin:64px auto 0;padding:0;border:0;max-width:none}
+.hero .hero-who::before{content:"";width:72px;height:1px;background:var(--gold-warm);margin-bottom:22px}
+.hero .hero-who img{width:120px;height:120px;aspect-ratio:1;border-radius:50%;object-fit:cover;border:3px solid var(--gold-warm);margin-bottom:18px}
+.hero-who .hw-label{margin:0 0 6px;font-size:.76rem;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--orange-ink)}
+.hero-who .hw-name{margin:0 0 8px;font-family:var(--serif);font-weight:500;font-size:clamp(2rem,3.4vw,2.6rem);line-height:1.1;color:var(--teal-deep)}
+.hero-who .hw-meta{margin:0;color:var(--muted);font-size:1rem}
+@media (max-width:760px){.hero .hero-who{margin-top:48px}.hero .hero-who img{width:104px;height:104px}}
