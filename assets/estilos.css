@@ -400,3 +400,15 @@ html{scroll-padding-top:124px}
   .hero-who p{font-size:.98rem}
   .hero-who strong{font-size:1.1rem}
 }
+
+/* v20: logo separado del menú y foto de Gretel más grande */
+.nav{gap:48px}
+.brand{flex:none}
+.brand .logo{height:88px}
+.hero-who{gap:24px}
+.hero-who img{width:120px;height:120px}
+@media (min-width:761px) and (max-width:1100px){.nav{gap:28px}.brand .logo{height:70px}}
+@media (max-width:760px){.nav{gap:16px}.brand .logo{height:70px}.hero-who img{width:96px;height:96px}}
+@media (min-width:761px){.menu a{white-space:nowrap}.nav{gap:36px}.brand .logo{height:84px}}
+@media (min-width:1101px){.menu{gap:26px}}
+@media (max-width:760px){.menu{inset:92px 0 auto 0}}
