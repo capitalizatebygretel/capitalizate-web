@@ -441,3 +441,7 @@ html{scroll-padding-top:124px}
   .faq-side{position:static}
   .marl-seal{max-width:280px;margin:0 auto}
 }
+
+/* v24: foto de Gretel sentada, más grande */
+.hero .hero-who img{width:230px;height:230px;margin-bottom:22px}
+@media (max-width:760px){.hero .hero-who img{width:190px;height:190px}}
