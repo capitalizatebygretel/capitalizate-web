@@ -412,3 +412,7 @@ html{scroll-padding-top:124px}
 @media (min-width:761px){.menu a{white-space:nowrap}.nav{gap:36px}.brand .logo{height:84px}}
 @media (min-width:1101px){.menu{gap:26px}}
 @media (max-width:760px){.menu{inset:92px 0 auto 0}}
+
+/* v21: foto completa de Gretel en "Le asesora" */
+.hero-who img{width:140px;height:auto;aspect-ratio:2/3;border-radius:16px;object-fit:cover;object-position:50% 50%;border:none}
+@media (max-width:760px){.hero-who img{width:112px;height:auto}}
