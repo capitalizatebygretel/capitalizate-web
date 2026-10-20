@@ -460,3 +460,7 @@ html{scroll-padding-top:124px}
 .contact{background-image:linear-gradient(rgba(11,43,45,.84),rgba(11,43,45,.90)),image-set(url(fotos/oficina-amplia-900.webp) type("image/webp"),url(fotos/oficina-amplia-900.jpg) type("image/jpeg"))}
 @media (max-width:760px){.quote{background-image:linear-gradient(rgba(11,43,45,.82),rgba(11,43,45,.90)),image-set(url(fotos/escritorio-escribiendo-horizontal-900.webp) type("image/webp"),url(fotos/escritorio-escribiendo-horizontal-900.jpg) type("image/jpeg"))}}
 picture{display:contents}
+
+/* v27: dirección y teléfono en el pie */
+.foot-contact{font-style:normal;line-height:1.65;color:#a9b1aa;font-size:.9rem}
+.foot-contact a{color:#e7e1d2}
