@@ -464,3 +464,6 @@ picture{display:contents}
 /* v27: dirección y teléfono en el pie */
 .foot-contact{font-style:normal;line-height:1.65;color:#a9b1aa;font-size:.9rem}
 .foot-contact a{color:#e7e1d2}
+
+/* v28: recursos en la columna derecha del Mapa de valor */
+.vm-resources .vm-sub:first-child{margin-top:0}
