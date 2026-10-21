@@ -467,3 +467,14 @@ picture{display:contents}
 
 /* v28: recursos en la columna derecha del Mapa de valor */
 .vm-resources .vm-sub:first-child{margin-top:0}
+
+/* v29: Modelo MARL equilibrado: título + foto arriba, pasos 3x2 abajo */
+.marl-split{grid-template-columns:1.25fr .75fr;align-items:center}
+.marl-split .how-photo{display:block}
+.marl-split .how-photo img{width:100%;height:auto;aspect-ratio:5/4;object-fit:cover;object-position:50% 35%;border-radius:22px 22px 90px 22px}
+#modelo-mar .how-grid{display:block}
+#modelo-mar .how-grid .steps{grid-template-columns:repeat(3,1fr);column-gap:32px;row-gap:40px}
+#modelo-mar .how-grid .steps h3{font-size:1.25rem;margin:26px 0 8px}
+#modelo-mar .how-grid .steps p{font-size:.98rem;line-height:1.55}
+@media (max-width:920px){.marl-split{grid-template-columns:1fr}.marl-split .how-photo{max-width:520px}#modelo-mar .how-grid .steps{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:760px){#modelo-mar .how-grid .steps{grid-template-columns:1fr;row-gap:24px}}
