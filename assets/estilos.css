@@ -579,3 +579,9 @@ picture{display:contents}
 
 /* v33: texto de la banda MARL bien centrado */
 .mb-head .lead,.mb-head .mb-sub{margin-left:auto;margin-right:auto}
+
+/* v34: pilares bajo el sello y firma al final de la banda MARL */
+.hero-seal .pillars{margin-top:14px}
+.mb-firma{margin:56px 0 0;padding-top:36px;border-top:1px solid rgba(185,149,88,.3);text-align:center}
+.mb-firma img{height:72px;width:auto;display:inline-block}
+@media (max-width:760px){.mb-firma img{height:58px}}
